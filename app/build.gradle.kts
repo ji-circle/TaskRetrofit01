@@ -7,6 +7,10 @@ android {
     namespace = "com.example.taskretrofit01"
     compileSdk = 34
 
+    buildFeatures{
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.example.taskretrofit01"
         minSdk = 31
